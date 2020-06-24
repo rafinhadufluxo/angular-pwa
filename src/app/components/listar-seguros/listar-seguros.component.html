@@ -4,14 +4,14 @@
     </div>
     <div class="content">
 
-        <ng-container *ngIf="seguros$ | async as seguros; else carregando">
-            <ng-container *ngIf="seguros.length > 0; else semSeguros">
-                <div *ngFor="let seguro of seguros" class="claim-row">
+        <ng-container >
+            <ng-container >
+                <div  class="claim-row">
                     <div>
-                        <strong>Marca e Modelo: </strong>{{ seguro.marcaCarro }} - {{ seguro.modeloCarro }}
+                        <strong>Marca e Modelo: </strong>                    
                     </div>
                     <div>
-                        <strong>Proprietário: </strong>{{ seguro.nomeProprietario }} {{ seguro.sobrenomeProprietario }}
+                        <strong>Proprietário: </strong>
                     </div>
                 </div>
             </ng-container>

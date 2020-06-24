@@ -1,2 +1,62 @@
-<p>cadastro-seguro works!</p>
-<p>listar-seguros works!</p>
+<div class="ui card main-form">
+    <div class="content">
+        <h1 class="header">Cadastrar Seguro</h1>
+    </div>
+    <div class="content">
+        <div class="ui large form equal width stackable grid">
+
+            <!-- DADOS DO CARRO -->
+            <h3 class="title">Dados do Carro</h3>
+
+            <div class="three column row">
+
+                <div class="column field">
+                    <label >Marca</label>
+                    <select class="ui fluid search selection dropdown">
+                        
+                    </select>
+                </div>
+
+                <div class="column field">
+                    <label>Modelo</label>
+                    <input type="text" id="modeloCarro" name="modeloCarro" placeholder="Modelo"/>
+                </div>
+
+                <div class="column field">
+                    <label >Placa</label>
+                    <input type="text" id="placaCarro" name="placaCarro" placeholder="Placa"/>
+                </div>
+
+            </div>
+
+            <!-- DADOS DO PROPRIETÁRIO-->
+            <h3 class="title">Dados do Proprietário</h3>
+            <div class="three column row">
+                <div class="column field">
+                    <label>Nome</label>
+                    <input type="text" id="nomeProprietario" name="nomeProprietario" placeholder="Nome"/>
+                </div>
+
+                <div class="column field">
+                    <label>Sobrenome</label>
+                    <input type="text" id="sobrenomeProprietario" name="sobrenomeProprietario" placeholder="Sobrenome"/>
+                </div>
+
+                <div class="column field">
+                    <label>Data de Nascimento</label>
+                    <input type="date" id="dataNascimentoProprietario" name="dataNascimentoProprietario"
+                        placeholder="Data de Nascimento"/>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="extra content">
+        <div class="row">
+            <button class="ui positive right floated button" >Salvar</button>
+        </div>
+        <div class="row notification-button-section">
+            <button class="ui button" >Enviar notificação</button>
+        </div>
+    </div>
+</div>
